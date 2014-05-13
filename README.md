@@ -1,7 +1,7 @@
 ---
 language: ruby
 tags: methods, arguments, variables, default arguments
-  resources: 1
+resources: 1
 ---
 
 # Say Hello
