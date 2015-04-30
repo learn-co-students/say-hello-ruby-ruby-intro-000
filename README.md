@@ -33,5 +33,3 @@ There is one more thing this method should do: if you call on this method and fo
 3. Get all the test to pass!
 4. Once all tests are passing, remember to stage and commit your code, push it up to your fork, and submit a pull request.
 
-## Resources
-* [Learn to Program](http://books.flatironschool.com/books/43?page=69) - [Chapter 9 Writing Your Own Methods](http://books.flatironschool.com/books/43?page=69), page 69
