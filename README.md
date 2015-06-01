@@ -3,7 +3,7 @@
 ## Objectives
 
 1. Understand what a default argument is.
-2. Build a method that says hello to people.
+2. Students will build a method that can take in an optional argument, with a default.
 
 ##What is a Default Argument
 
