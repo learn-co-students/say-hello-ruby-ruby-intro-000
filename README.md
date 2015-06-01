@@ -1,8 +1,3 @@
----
-tags: methods, arguments, variables, default arguments
-language: ruby
----
-
 # Say Hello
 
 ## Objectives
