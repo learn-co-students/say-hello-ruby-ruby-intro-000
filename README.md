@@ -63,10 +63,10 @@ There is one more thing this method should do: if you call on this method and fo
 
 ## Steps
 
-1. Run `rspec` to see where you stand. 
+1. Run `learn` to see where you stand. 
   * You probably got two NoMethodErrors. This means the test was looking for a method called say_hello but couldn't find it.
 2. Define the method in `say_hello.rb`
-  * Run `rspec` again. Are you getting a different error? If you haven't seen this error, guess what it's trying to tell you then Google it with the word "ruby".
+  * Run `learn` again. Are you getting a different error? If you haven't seen this error, guess what it's trying to tell you then Google it with the word "ruby".
 3. Get all the test to pass!
 4. Once all tests are passing, remember to stage and commit your code, push it up to your fork, and submit a pull request.
 
