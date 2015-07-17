@@ -5,7 +5,7 @@
 1. Recognize a default argument.
 2. Build a method that can take in an optional argument, with a default.
 
-## What is a Default Argument
+## What Is A Default Argument?
 
 We already know that methods can be defined to accept arguments:
 
