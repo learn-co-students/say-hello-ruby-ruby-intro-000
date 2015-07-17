@@ -2,10 +2,10 @@
 
 ## Objectives
 
-1. Understand what a default argument is.
-2. Students will build a method that can take in an optional argument, with a default.
+1. Recognize a default argument.
+2. Build a method that can take in an optional argument, with a default.
 
-##What is a Default Argument
+## What Is A Default Argument?
 
 We already know that methods can be defined to accept arguments:
 
@@ -13,14 +13,13 @@ We already know that methods can be defined to accept arguments:
 def plus_five(number)
 	number + 5
 end
-
 ```  
 
-Above, we define a method, called `plus_five` that can accept any number and will return the sum of that number, plus 5. 
+Above, we defined a method called `plus_five` that can accept any number and will return the sum of that number plus 5. 
 
-Defining our methods to accept arguments allow us to access specific pieces of information within our methods––it allows us to *pass in* information to our methods. 
+Defining our methods to accept arguments allows us to access specific pieces of information within our methods; it allows us to *pass in* information to our methods. 
 
-What would happend if you called the above method but *forgot* to pass in a number as an argument?
+What would happen if you called the above method but *forgot* to pass in a number as an argument?
 
 Drop into IRB, copy and paste the above method definition and then call the method like this: 
 
@@ -30,9 +29,9 @@ You should see the following error:
 
 `ArgumentError: wrong number of arguments (0 for 1)`
 
-What if you wanted to avoid this error? What if you wanted to supply your method with a default number to use, in the even that it is called without an argument?
+What if you wanted to avoid this error? What if you wanted to supply your method with a default number to use, in the event that it is called without an argument?
 
-Here's where **default arguments come in.** 
+Here's where **default arguments** come in. 
 
 With default arguments, you can specify default values for a method's arguments––values that the method will *default* to using if the caller doesn't pass them explicitly. 
 
@@ -49,7 +48,7 @@ Now, if you call your `plus_five` method without any arguments, the method will 
 
 ## Instructions
 
-The second objective of this lab is to build a method called `say_hello`. This method should accept the argument of a person's name. It then should print `"Hello "` + the name. For instance:
+The second objective of this lab is to build a method called `say_hello`. This method should accept the argument of a person's name. It then should print `"Hello "` with the name followed by an exclamation point (don't forget that space after the "Hello"). For instance:
 
 ```ruby
 # I call on the method, say_hello, and give it the string "Gabriela" 
@@ -59,15 +58,15 @@ say_hello("Gabriela")
 Hello Gabriela!
 ```
 
-There is one more thing this method should do: if you call on this method and forget to give it the name of a person, it should just say, "Hello Ruby Programmer!". Use a default argument to accomplish this!
+There is one more thing this method should do: if you call on this method and forget to give it the name of a person, it should just say, `"Hello Ruby Programmer!"`. Use a default argument to accomplish this!
 
 ## Steps
 
 1. Run `learn` to see where you stand. 
-  * You probably got two NoMethodErrors. This means the test was looking for a method called say_hello but couldn't find it.
+  * You probably got two NoMethodErrors. This means the test was looking for a method called `say_hello` but couldn't find it.
 2. Define the method in `say_hello.rb`
   * Run `learn` again. Are you getting a different error? If you haven't seen this error, guess what it's trying to tell you then Google it with the word "ruby".
-3. Get all the test to pass!
-4. Once all tests are passing, remember to stage and commit your code, push it up to your fork, and submit a pull request.
+3. Get all the tests to pass!
+4. Once all of the tests are passing, stage and commit your code; push it up to your fork; and submit a pull request.
 
 
