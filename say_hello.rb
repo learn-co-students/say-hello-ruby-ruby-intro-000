@@ -1,1 +1,5 @@
-# Build your say_hello method here
+greeting
+# > Hello, Ruby programmer!
+
+greeting("Sophie")
+# > Hello, Sophie!
