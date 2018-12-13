@@ -1,1 +1,7 @@
-# Build your say_hello method here
+def say_hello(name="Ruby Programmer")
+  if !name.empty?
+  puts "Hello #{name}!"
+
+end
+
+end
