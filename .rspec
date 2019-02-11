@@ -1,2 +1,12 @@
 --color
 --format documentation
+
+say_hello(name){
+puts "Hello with that #{name}"
+}
+say_hello("Kent Back")
+
+say_hello( name = "ruby programer"){
+puts "Hello, #{name}"
+}
+say_hello()
