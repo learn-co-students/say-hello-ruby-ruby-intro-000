@@ -1,5 +1,6 @@
 # Build your say_hello method here
-say_hello("Philip")
+def say_hello(name = "Ruby Programmer")
 
 # The method prints this text to the screen:
-Hello Philip!
+  puts "Hello #{name}!"
+end
