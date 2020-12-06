@@ -1,0 +1,1 @@
+def name(gets.to.i)
